@@ -1,0 +1,34 @@
+Variables used in the code are as follows:
+
+data_train_x, data_test_x: basically they are datapoints for the various features 
+
+data_train_y, data_test_y: activity labels
+
+data_train_sub, data_test_sub: subject index
+
+data_train: merging data_train related columns
+
+data_test: merging data_test related columns
+
+data_combined: combining data_train and data_test
+
+features: reading in feature labels
+
+feature_names: converting column 2 of features to characters
+
+labels: reading in activity labels
+
+names(data_combined): inserting column names into combined dataset
+
+mean_col_chk, std_col_chk: extracting features which consist of the words "mean" or "std". 
+
+mean_col_names, std_col_names: renamed mean_col_chk, std_col_chk
+
+extracted_data: combine the required data
+
+activity_desc: merge the extracted_data with activity labels such that the activity names are reflected
+
+
+
+
+
